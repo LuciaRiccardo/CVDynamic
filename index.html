@@ -29,6 +29,8 @@
       contentElement.style.display = 'none';
       setTimeout(hideContent, 5000);
     }
+
+    ScrollReveal().reveal('reveal', { distance: '100px', duiration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
   </script>
 
   <title>Personal Webpage</title>
@@ -38,21 +40,29 @@
   <!-- Sizione navbar -->
   <section id="navbar">
     <li><a href="#top">Top Page</a></li>
-    <li><a href="#istruzione">Esperieze</a></li>
+    <li><a href="#istruzione">Esperienze</a></li>
     <li><a href="#progetti">Progetti</a></li>
   </section>
 
   <!-- Sezione foto e sezione me stesso -->
-  <section id="top">
-    <div id="photo">
+  <section id="top" class="reveal">
+    <div id="first">
       <div id="image">
         <img src="" alt="Image of me">
       </div>
       <div id="description">
         <ol>
-          <li><a href="">Riccardo</a></li>
-          <li><a href="">Lucia</a></li>
-          <li><a href="">Ciampino, RM</a></li>
+          <li>Riccardo</li>
+          <li>Lucia</li>
+          <li><a href="https://www.google.com/maps/place/Via+Fratelli+Wright,+174,+00043+Ciampino+RM/@41.7984272,12.604311,14z/data=!4m15!1m8!3m7!1s0x13258897021b1d77:0x9b41a49c68c40a32!2s00043+Ciampino+RM!3b1!8m2!3d41.802425!4d12.6021389!16zL20vMGR6Mndu!3m5!1s0x1325888328331fb7:0x6b71e91240e6eebb!8m2!3d41.8053783!4d12.6186942!16s%2Fg%2F11gf8f9h51?entry=ttu" target="_blank">Ciampino, RM</a></li>
+        </ol>
+      </div>
+      <div id="description2">
+        <ol>
+          <li>Altezza: 1.74 m</li>
+          <li>Peso: 80 kg</li>
+          <li>Occhi: Nocciola</li>
+          <li>Capelli: Castano scuro</li>
         </ol>
       </div>
     </div>
@@ -63,7 +73,7 @@
 
   <!-- Sezione scuola -->
   <section id="school">
-    <div id="istruction">
+    <div id="istruction" class="reveal">
       <ul>
         <li><a href="">Medie</a></li>
         <li><a href="">Superiori</a></li>
@@ -75,36 +85,40 @@
 
   <!-- Sezione esperienze -->
   <section id="experience">
-    <div>
+    <div class="reveal">
       <ol>
-        <li><a href="">1</a></li>
-        <li><a href="">2</a></li>
-        <li><a href="">3</a></li>
-        <li><a href="">4</a></li>
-        <li><a href="">5</a></li>
+        <li><a href="" animation: descrizione 2s ease 0s 1 normal forwards;>1</a></li>
+        <li><a href="" animation: descrizione 2s ease 0s 1 normal forwards;>2</a></li>
+        <li><a href="" animation: descrizione 2s ease 0s 1 normal forwards;>3</a></li>
+        <li><a href="" animation: descrizione 2s ease 0s 1 normal forwards;>4</a></li>
+        <li><a href="" animation: descrizione 2s ease 0s 1 normal forwards;>5</a></li>
       </ol>
     </div>
   </section>
 
   <!-- Sezione progetti -->
   <section id="project">
-    <li>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-    </li>
+    <div class="reveal">
+      <li>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </li>
+    </div>
   </section>
 
   <!-- Sezione contatti -->
   <section>
-    <li>
-      <a href="">Instagram</a>
-      <a href="">Linkedin</a>
-      <a href="">Indeed</a>
-      <a href="">GitHub</a>
-    </li>
+    <div class="reveal">
+      <li>
+        <a href="">Instagram</a>
+        <a href="">Linkedin</a>
+        <a href="">Indeed</a>
+        <a href="">GitHub</a>
+      </li>
+    </div>
   </section>
 
   <!-- Sezione copyright -->
